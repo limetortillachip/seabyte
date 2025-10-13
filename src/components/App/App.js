@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.sass';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <header className="App-header">
       </header>
       <main className='App-content'>
+        <h1>Hi</h1>
       </main>
       <footer className='App-footer'>
         limetortillachip &copy; 2025.
