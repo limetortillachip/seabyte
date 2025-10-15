@@ -1,2 +1,12 @@
 @forward 'colors'
 @forward 'font' 
+
+$bit: 1rem
+$cushion: (calc($bit/2))
+
+
+=flex-box($flow, $gap: $bit)
+    display: flex
+    flex-flow: $flow
+    gap: $gap
+
